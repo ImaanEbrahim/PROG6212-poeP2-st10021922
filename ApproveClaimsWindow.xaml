@@ -1,0 +1,25 @@
+﻿<Window x:Class="CMCS_APP2._0.ApproveClaimsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Approve Claims" Height="300" Width="400">
+    <Grid>
+        <DataGrid x:Name="claimsDataGrid" AutoGenerateColumns="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Lecturer" Binding="{Binding LecturerName}" />
+                <DataGridTextColumn Header="Hours" Binding="{Binding HoursWorked}" />
+                <DataGridTextColumn Header="Rate" Binding="{Binding HourlyRate}" />
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" />
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="Approve" Click="Approve_Click" />
+                                <Button Content="Reject" Click="Reject_Click" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
