@@ -1,6 +1,5 @@
-ReadMe 
-
 CMCS_APP2.0 (LectraClaim System) - Part 2 Implementation
+
 Overview
 The LectraClaim System is designed to facilitate the submission, approval, and tracking of monthly claims by Independent Contractor lecturers. This is the second part of the project, where additional functionalities are implemented to provide a more interactive and complete experience. This part introduces claim submission, approval, file uploading, and claim status tracking.
 
