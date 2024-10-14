@@ -45,7 +45,7 @@ User Interface: The UI has been designed with a modern, minimalist approach. It 
 Getting Started
 To use the LectraClaim system:
 
-Clone the repository from GitHub.
+Clone the repository from GitHub. using https://github.com/ImaanEbrahim/PROG6212-poeP2-st10021922.git
 Open the project in Visual Studio.
 Run the application to view the main window and navigate through the features.
 Version Control
